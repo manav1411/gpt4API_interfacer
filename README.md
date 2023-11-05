@@ -17,3 +17,5 @@ An intuitively interfaced command line program that allows you to prompt the gpt
 at the top, you can specify the model, temperature, max tokens, frequency penality, presence penalty and top_p that will be used by the API. 
 You don't need to refer to the OpenAI documentation and can just follow the comments I've written at the top.
 After the user message has been specified, the API model will then be contacted at the appropriate endpoint, and the response will be returned
+# openAI-API-interface
+creates a visually pleasing interface OpenAI API tokens.
