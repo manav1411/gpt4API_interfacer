@@ -1,4 +1,4 @@
-hi, this project is a command line program that allows you to intuitively interface with the gpt4 API.
+An intuitively interfaced command line program that allows you to prompt the gpt4 API.
 
 **why would you need this interface?**
 1. The API is useful if you want specific LLM paramaters such as temperature, frequency_penalty, etc.
