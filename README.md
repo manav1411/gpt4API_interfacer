@@ -1,40 +1,32 @@
-An intuitively interfaced command line program that allows you to prompt the gpt4 API.
+## Purpose
+The OpenAI API is great for developers, who can use it well for their own projects, but it is unintuitive for individual use.\
 
-# why would you need this interface?
-1. The API is useful if you want specific LLM paramaters such as temperature, frequency_penalty, etc.
-2. it's also useful if you want to specify the specific OpenAI model you want to use. e.g. you can swap gpt-4 for gpt-3.5_turbo if you want to use that model.
-4. extensibility is also great with this project since instead of the command line, you can output to your own project, e.g. a customer service chat-bot. '
-5. you can provide pre-prompts to the model the user doesn't see, such as "you are a French teacher. assist the user understand their specified french text"
+1. This API Interfacer provides a platform to easily interact with OpenAI APIs, e.g. GPT-4.
+2. Using this interfacer often significantly cheaper than OpenAI-Plus, since it is pay-as-you-go pricing.
+3. Customisation is also possible, since the user can specify various LLM paramaters (e.g. temperature, frequency_penalty, etc.)
+4. Additionally, you can specify pre-prompts, e.g. "you are a french teacher, assist the user with french".
+5. Various models are available depending on budget/requirements (e.g. gpt-4, gpt-3.5_turbo, etc.
+6. Modular code allows you to integrate with developer projects well (e.g. customer service chat-bot)
 
-# How to use
-1. you may need to `pip install` or `pip3 install` the appropriate libraries if any are missing. the error message should be quite clear.
-2. in the same folder as the program, in your command prompt, enter: `python3 gpt4.py` or `python gpt4.py` based on your python version
-3. then type in your prompt. you can write on multiple lines, write paragraphs, etc by pressing enter.
-4. at the end of your prompt, input `ctrl+d` or `cmd+d`
-5. wait for the API response (should be outputted promptly, based on model speed/response length)
+## Screenshot
+<img width="493" alt="Screenshot 2024-09-06 at 4 13 38 pm" src="https://github.com/user-attachments/assets/cc12084a-2006-4a05-b41d-48276be1e09d">
 
-# How it works behind the scenes
-at the top, you can specify the model, temperature, max tokens, frequency penality, presence penalty and top_p that will be used by the API. 
-You don't need to refer to the OpenAI documentation and can just follow the comments I've written at the top.
-After the user message has been specified, the API model will then be contacted at the appropriate endpoint, and the response will be returned
-# openAI-API-interface
-creates a visually pleasing interface OpenAI API tokens.
-hi, this project is a command line program that allows you to intuitively interface with the gpt4 API.
 
-# why would you need this interface?
-1. The API is useful if you want specific LLM paramaters such as temperature, frequency_penalty, etc.
-2. it's also useful if you want to specify the specific OpenAI model you want to use. e.g. you can swap gpt-4 for gpt-3.5_turbo if you want to use that model.
-4. extensibility is also great with this project since instead of the command line, you can output to your own project, e.g. a customer service chat-bot. '
-5. you can provide pre-prompts to the model the user doesn't see, such as "you are a French teacher. assist the user understand their specified french text"
+## How to Use
+```
+git clone git@github.com:manav1411/gpt4API_interfacer.git
+cd gpt4API_interfacer
+pip3 install requests
+python3 gpt4.py
+# Type your specified prompt.
+ctrl+d        # cmd+d on mac. when finished with prompt.
+              # Await model response
+```
+Note: if you have issues installing requests, consider creating a python virtual env with `python3 -m venv myenv`, `source myenv/bin/activate`, `python3 gpt4.py`, then `deactivate`\
 
-# How to use
-1. you may need to `pip install` or `pip3 install` the appropriate libraries if any are missing. the error message should be quite clear.
-2. in the same folder as the program, in your command prompt, enter: `python3 gpt4.py` or `python gpt4.py` based on your python version
-3. then type in your prompt. you can write on multiple lines, write paragraphs, etc by pressing enter.
-4. at the end of your prompt, input `ctrl+d` or `cmd+d`
-5. wait for the API response (should be outputted promptly, based on model speed/response length)
+After the user message has been specified, the API model will then be contacted at the appropriate endpoint.\
+You can press "enter" for new lines. multiple lines/paragraphs supported
 
-# How it works behind the scenes
-at the top, you can specify the model, temperature, max tokens, frequency penality, presence penalty and top_p that will be used by the API. 
-You don't need to refer to the OpenAI documentation and can just follow the comments I've written at the top.
-After the user message has been specified, the API model will then be contacted at the appropriate endpoint, and the response will be returned
+### Modifications
+If you open gpt4.py, you can specify the model, temperature, max tokens, frequency penality, presence penalty and top_p that will be used by the API.\
+You don't need to refer to OpenAI documentation, and can refer to the comments I've written at the top.
