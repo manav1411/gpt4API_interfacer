@@ -37,7 +37,6 @@ def generate_chat_completion(messages, model="gpt-4-1106-preview", temperature=1
     else:
         raise Exception(f"Error {response.status_code}: {response.text}")
 
-
 #takes in the users input
 user_input = []
 print("your gpt4 prompt: ")
