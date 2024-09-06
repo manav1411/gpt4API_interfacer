@@ -22,7 +22,7 @@ python3 gpt4.py
 ctrl+d        # cmd+d on mac. when finished with prompt.
               # Await model response
 ```
-Note: if you have issues installing requests, consider creating a python virtual env with `python3 -m venv myenv`, `source myenv/bin/activate`, `python3 gpt4.py`, then `deactivate`\
+Note: if you have issues installing requests, consider creating a python virtual env with `python3 -m venv myenv`, `source myenv/bin/activate`, `python3 gpt4.py`, then `deactivate`
 
 After the user message has been specified, the API model will then be contacted at the appropriate endpoint.\
 You can press "enter" for new lines. multiple lines/paragraphs supported
