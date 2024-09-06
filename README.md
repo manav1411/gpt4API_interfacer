@@ -1,5 +1,5 @@
 ## Purpose
-The OpenAI API is great for developers, who can use it well for their own projects, but it is unintuitive for individual use.\
+The OpenAI API is great for developers, who can use it well for their own projects, but it is unintuitive for individual use.
 
 1. This API Interfacer provides a platform to easily interact with OpenAI APIs, e.g. GPT-4.
 2. Using this interfacer often significantly cheaper than OpenAI-Plus, since it is pay-as-you-go pricing.
@@ -9,7 +9,7 @@ The OpenAI API is great for developers, who can use it well for their own projec
 6. Modular code allows you to integrate with developer projects well (e.g. customer service chat-bot)
 
 ## Screenshot
-<img width="493" alt="Screenshot 2024-09-06 at 4 13 38 pm" src="https://github.com/user-attachments/assets/cc12084a-2006-4a05-b41d-48276be1e09d">
+<img width="600" alt="Screenshot 2024-09-06 at 4 13 38 pm" src="https://github.com/user-attachments/assets/cc12084a-2006-4a05-b41d-48276be1e09d">
 
 
 ## How to Use
